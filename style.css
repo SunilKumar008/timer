@@ -1,0 +1,52 @@
+.div1{
+    width: 45%;
+    display: inline-block;
+    background: linear-gradient(#9dcc98, #22c1c3);
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    justify-content: center;
+}
+.div2{
+    width: 45%;
+    display: inline-block;
+    background: linear-gradient(#9dcc98, #22c1c3);
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rosybrown;
+    height: 300px;
+   
+    align-content: center;
+    
+}
+.bt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+button{
+    margin-top: 10px;
+    width: 10%;
+    height: 30px;
+    background-color: #10e9ec;
+    margin: 10px;
+    
+}
+.time{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: #0958dd;
+}

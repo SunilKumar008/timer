@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div1">
+        <h1>Select Hour</h1>
+        <input type="number" id="hr">
+    </div>
+    <div class="div2">
+        <h1>Select Minute</h1>
+        <input type="number" id="mnt">
+    </div>
+   
+    <div class="card">
+        <h2 id="hor">00</h2>
+        <h2>:</h2>
+        <h2 id="mnt">00</h2>
+        <h2>:</h2>
+        <h2 id="sec">00</h2>
+        <h2>:</h2>
+        <h2 id="milisec">00</h2>
+    </div>
+    <div class="bt">
+        <button onclick="strt()" id="start">start</button>
+        <button onclick="stp()" id="stop">stop</button>
+        <button onclick=" clr()">clear</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
